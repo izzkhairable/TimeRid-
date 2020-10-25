@@ -111,10 +111,7 @@ class Addevent extends React.Component{
                                     </div>
                             </div>
                         </div>
-                        {/* <h5>The event name {this.state.eventName}</h5>
-                        <h5>The event desc {this.state.eventDesc}</h5>
-                        <h5>The category {this.state.category}</h5>
-                        <h5>The category color {this.state.categoryColor}</h5> */}
+
                         <div className="modal-footer">
                             <a class="btn-floating btn-small waves-effect waves-light red modal-close">X</a>
                             <button style={{marginLeft:'10px'}} href="#!" className=" waves-effect waves-green btn">Add Event</button>

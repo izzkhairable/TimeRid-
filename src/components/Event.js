@@ -29,20 +29,7 @@ class Event extends React.Component{
         this.setState({timings:retrievedObject[eventId-1].timings })
       }
 
-    //   componentDidMount() {
-    //     const M= window.M
-    //     const options ={}
-    //     document.addEventListener('DOMContentLoaded', function() {
-    //         var edit1 = document.querySelectorAll('.fixed-action-btn');
-    //         var instances1 = M.FloatingActionButton.init(edit1, options);
 
-    //         var edit2 = document.querySelectorAll('.modal');
-    //         var instances2 = M.Modal.init(edit2, options);
-
-    //         var edit3 = document.querySelectorAll('select');
-    //         var instances3 = M.FormSelect.init(edit3, options);
-    //       });
-    // }
 
     render(){
       const datajson=this.state.timings.map(
@@ -81,7 +68,7 @@ class Event extends React.Component{
                 </div>
                 <div class="card-action">
                     <div className="right-align">
-                      {/* <a class="btn-floating btn-small waves-effect waves-light orange accent-4 modal-trigger" href="#modal2"><i class="material-icons">edit</i></a> */}
+                     
                       <a class="waves-effect waves-light btn" onClick={this.handleClick} style={{marginLeft:'10px'}}>
                         <i className="material-icons left-align">add</i>
                         <i className="material-icons left-align" >access_time</i>
